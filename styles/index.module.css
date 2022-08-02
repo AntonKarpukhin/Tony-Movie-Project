@@ -1,0 +1,21 @@
+.wrapper {
+	background: var(--black);
+	height: 953px;
+	padding: 45px 55px 48px 68px;
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
+.wrapperHeader {
+	margin: 0 auto;
+}
+
+.slider, .htag {
+	margin-top: 62px;
+}
+
+.wrapperCards {
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-between;
+}

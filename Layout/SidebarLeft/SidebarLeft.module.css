@@ -1,0 +1,51 @@
+.sidebarLeft {
+	width: 248px;
+	height: 953px;
+	background-color: var(--grey);
+	border-radius: 35px 0 0 35px;
+	padding: 48px 71px 48px 38px;
+}
+
+.title {
+	width: 70px;
+	height: 49px;
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 100%;
+	color: var(--white);
+}
+
+.wrapperTop {
+	margin-top: 70px;
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 25px;
+}
+
+.wrapperCategory {
+	margin-top: 40px;
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 45px;
+}
+
+.subTitle {
+	color: var(--white-light);
+	font-weight: 900;
+}
+
+.item {
+	color: var(--white);
+	transition: 0.7s all;
+	cursor: pointer;
+	padding-bottom: 2px;
+
+}
+
+.item:hover {
+	color: var(--button-light);
+}
+
+.active {
+	color: var(--button-light);
+}

@@ -1,0 +1,24 @@
+.wrapper {
+	height: 42px;
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr;
+	justify-items: left;
+	gap: 80px;
+	align-items: center;
+}
+
+.item {
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 100%;
+	color: var(--white);
+	transition: 0.5s all;
+}
+
+.item:hover {
+	color: var(--button-light);
+}
+
+.hed:hover {
+	color: var(--white);;
+}

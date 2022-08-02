@@ -1,0 +1,76 @@
+.watchHi, .watchMin, .watchlist {
+	height: 56px;
+	width: 190px;
+	color: var(--black);
+	font-weight: 900;
+	font-size: 18px;
+	line-height: 100%;
+	border-radius: 15px;
+	border: none;
+	background-color: var(--button-light);
+	cursor: pointer;
+}
+
+.watchMin {
+	width: 149px;
+}
+
+.watchlist {
+	width: 160px;
+	background-color: var(--button-grey);
+	color: var(--white);
+	padding: 14px 12px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+
+.drop {
+	height: 40px;
+	width: 55px;
+	border-radius: 8px;
+	font-weight: 900;
+	font-size: 14px;
+	line-height: 100%;
+	background-color: var(--button-grey);
+	color: var(--white);
+	border: none;
+	cursor: pointer;
+}
+
+.plusHi {
+	height: 57px;
+	width: 57px;
+	border-radius: 15px;
+	background-color: var(--button-grey);
+	border: none;
+	cursor: pointer;
+}
+
+.plusMin {
+	height: 40px;
+	width: 55px;
+	border-radius: 8px;
+	background-color: var(--button-grey);
+	border: none;
+	cursor: pointer;
+}
+
+.plusExtraMin {
+	height: 40px;
+	width: 125px;
+	border-radius: 8px;
+	background-color: var(--button-light);
+	border: none;
+	color: var(--black);
+	font-weight: 900;
+	font-size: 14px;
+	line-height: 100%;
+	cursor: pointer;
+}
+
+.button:hover {
+	opacity: 0.5;
+	transition: 0.7s all;
+}

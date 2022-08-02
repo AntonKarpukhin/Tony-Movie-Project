@@ -1,0 +1,49 @@
+.gradient {
+	width: 237px;
+	height: 298px;
+	background: linear-gradient(180deg, rgba(22, 24, 30, 0) 0%, rgba(22, 24, 30, 0.7) 61.28%), linear-gradient(0deg, rgba(22, 24, 30, 0.4), rgba(22, 24, 30, 0.4));
+	position: absolute;
+}
+
+.wrapper {
+	width: 237px;
+	height: 298px;
+	border-radius: 20px;
+	padding: 21px 10px 10px 10px;
+	position: relative;
+	display: grid;
+	grid-template-columns: 57px 50px 85px;
+	grid-template-rows: 24px 127px 18px 57px;
+	gap: 15px;
+	grid-template-areas:
+	"title title title"
+	". . ."
+	"titleLittle titleLittle titleLittle2"
+	"buttonMin buttonMin buttonMin";
+}
+
+.title {
+	grid-area: title;
+	color: var(--white);
+	z-index: 1;
+}
+
+.titleLittle {
+	grid-area: titleLittle;
+	color: var(--white-light);
+	z-index: 1;
+}
+
+.titleLittle2 {
+	grid-area: titleLittle2;
+	color: var(--white-light);
+	justify-self: right;
+	z-index: 1;
+}
+
+.buttonMin {
+	grid-area: buttonMin;
+	z-index: 1;
+	margin: 0 auto;
+}
+

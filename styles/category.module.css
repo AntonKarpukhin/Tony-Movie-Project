@@ -1,0 +1,63 @@
+.wrapper {
+	margin: 0 auto;
+	padding: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-items: center;
+	align-items: center;
+}
+
+.wrapperCard {
+	margin-top: 60px;
+	display: grid;
+	grid-template-columns: repeat(3, 250px);
+	row-gap: 30px;
+	column-gap: 10px;
+	height: 640px;
+	overflow: hidden;
+	justify-items: center;
+}
+
+.input {
+	margin: 0 auto;
+	margin-top: 40px;
+}
+
+
+.back {
+	display: block;
+	margin-top: 10px;
+	margin-left: 5px;
+	color: var(--white);
+	cursor: pointer;
+	transition: 0.7s all;
+}
+
+.back:hover {
+	opacity: 0.5;
+}
+
+.buttonWrapper {
+	margin-top: 30px;
+	display: flex;
+	gap: 100px;
+}
+
+.button {
+	height: 40px;
+	width: 125px;
+	border-radius: 8px;
+	padding: 9px 41px 9px 41px;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 100%;
+	cursor: pointer;
+	border: none;
+	background: var(--button-light);
+	color: var(--white);
+	transition: 0.7s all;
+}
+
+.button:hover {
+	opacity: 0.5;
+}

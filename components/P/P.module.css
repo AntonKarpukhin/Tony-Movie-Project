@@ -1,0 +1,41 @@
+.p {
+	margin: 0;
+}
+
+.fz24 {
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 100%;
+}
+
+.fz18100 {
+	font-weight: 900;
+	font-size: 18px;
+	line-height: 100%;
+}
+
+.fz1822 {
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+.fz16 {
+	font-weight: 900;
+	font-size: 16px;
+	line-height: 100%;
+}
+
+.fz15 {
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 100%;
+}
+
+.fz14 {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 100%;
+}
+
+

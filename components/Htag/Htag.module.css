@@ -1,0 +1,16 @@
+.h1, .h2, .h3 {
+	font-weight: 900;
+	font-size: 48px;
+	line-height: 100%;
+	color: var(--white);
+	margin: 0;
+}
+
+.h2 {
+	font-size: 30px;
+}
+
+.h3 {
+	font-size: 24px;
+}
+

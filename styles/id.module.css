@@ -1,0 +1,117 @@
+.wrapper {
+	color: var(--white);
+	padding: 20px 50px 50px 50px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(8, auto);
+	column-gap: 30px;
+	row-gap: 10px;
+	grid-template-areas:
+	"htag htag"
+	"img country"
+	"img genre"
+	"img rating"
+	"img years"
+	"img ."
+	"description description"
+	"button button";
+	position: relative;
+}
+
+.htag {
+	grid-area: htag;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.img {
+	grid-area: img;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.description, .country, .rating,  .years {
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 40px;
+
+}
+
+.country {
+	grid-area: country;
+	color: var(--white-light);
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.rating {
+	grid-area: rating;
+	color: var(--white-light);
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.wrapperGenre, .wrapperCountry {
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 40px;
+}
+
+.genre {
+	grid-area: genre;
+	color: var(--white-light);
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.years {
+	grid-area: years;
+	color: var(--white-light);
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.description {
+	grid-area: description;
+	font-weight: 400;
+	font-size: 18px;
+}
+
+.videoButton {
+	height: 56px;
+	width: 190px;
+	border-radius: 15px;
+	padding: 19px 47px 19px 47px;
+	background: var(--button-light);
+	grid-area: button;
+	margin: 0 auto;
+	cursor: pointer;
+	transition: 0.5s all;
+	color: var(--white);
+	border: none;
+	margin-top: 10px;
+}
+
+.videoButton:hover {
+	opacity: 0.7;
+}
+
+.wrapperVideoPlayer {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.4);
+}
+
+.back {
+	display: block;
+	margin-top: 10px;
+	margin-left: 5px;
+	color: var(--white);
+	cursor: pointer;
+	transition: 0.7s all;
+}
+
+.back:hover {
+	opacity: 0.5;
+}

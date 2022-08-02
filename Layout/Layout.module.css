@@ -1,0 +1,10 @@
+.wrapper {
+	margin: 0 auto;
+	width: 1512px;
+	height: 982px;
+	border: 15px solid dimgrey;
+	border-radius: 50px;
+	display: grid;
+	grid-template-columns: 248px 881px 353px;
+	overflow: hidden;
+}

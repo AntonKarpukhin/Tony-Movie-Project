@@ -1,0 +1,52 @@
+.gradient {
+	width: 770px;
+	height: 350px;
+	background: linear-gradient(0deg, rgba(22, 24, 30, 0.7), rgba(22, 24, 30, 0.7));
+	position: absolute;
+}
+
+.wrapper {
+	width: 770px;
+	height: 350px;
+	border-radius: 20px;
+	padding: 40px 20px 20px 20px;
+	display: grid;
+	position: relative;
+	grid-template-columns: 1fr;
+	row-gap: 60px;
+}
+
+.htag {
+	z-index: 1;
+}
+
+
+.wrapperArrow{
+	display: flex;
+	justify-content: space-between;
+	z-index: 1;
+}
+
+.wrapperButton {
+	display: flex;
+	justify-content: center;
+	z-index: 1;
+}
+
+.arrowLeft {
+	transform: rotate(180deg);
+}
+
+.wrapperArrowLeft, .wrapperArrowRight {
+	height: 50px;
+	width: 50px;
+	border-radius: 15px;
+	padding: 18px 21px;
+	background: rgba(249, 249, 249, 0.2);
+	cursor: pointer;
+	transition: 0.5s all;
+}
+
+.wrapperArrowLeft:hover, .wrapperArrowRight:hover {
+	opacity: 0.5;
+}

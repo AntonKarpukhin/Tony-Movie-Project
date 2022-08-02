@@ -1,0 +1,21 @@
+.wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0;
+	transition: 0.5s all;
+	pointer-events: none;
+}
+
+.active {
+	opacity: 1;
+	pointer-events: all;
+}
+
+.content_active {
+	transform: scale(1);
+	color: var(--white);
+	font-weight: 900;
+	font-size: 18px;
+	line-height: 100%;
+}

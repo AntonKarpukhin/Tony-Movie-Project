@@ -1,0 +1,32 @@
+.gradient {
+	width: 210px;
+	height: 129px;
+	background: linear-gradient(0deg, rgba(22, 24, 30, 0.7), rgba(22, 24, 30, 0.7));
+	position: absolute;
+}
+
+.wrapperCard {
+	display: flex;
+	gap: 30px;
+}
+
+.wrapper {
+	width: 210px;
+	height: 129px;
+	border-radius: 12px;
+	padding: 10px;
+	display: grid;
+	position: relative;
+	transition: 0.5s all;
+}
+
+.title {
+	grid-area: title;
+	color: var(--white);
+	height: 16px;
+	z-index: 1;
+}
+
+.wrapper:hover {
+	opacity: 0.5;
+}
